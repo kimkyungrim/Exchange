@@ -12,10 +12,11 @@ public class exChange_Main {
 					
 		while(true) {
 			
-			exchangeInput.inputData();
+			exchangeInput.inputType();
 			if(exchangeInput.moneyType == 0) {
 				break;		
 			}
+			exchangeInput.inputData();
 			exchangeProcess.process(exchangeInput.inputWon, exchangeInput.moneyType);
 			exchangePrint.print(exchangeProcess.moneyText, exchangeProcess.exchangeRate, exchangeInput.moneyType, exchangeProcess.returnMoney, exchangeProcess.returnWon);
 			exchangeReturnMoney.returnMoney(exchangeInput.moneyType, exchangeProcess.returnMoney, exchangeProcess.moneyText);

@@ -10,7 +10,6 @@ public class exChange_Process {
 	public String moneyText = null;
 	
 	public void process(double inputWon, int moneyType) {
-		//환전금액과 거스름돈 계산
 		if(moneyType == 1) {
 			moneyText = "USD";
 			exchangeRate = EXCHANGE_RATE_USD;

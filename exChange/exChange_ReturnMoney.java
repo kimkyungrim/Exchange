@@ -3,7 +3,6 @@ package exChange;
 public class exChange_ReturnMoney {
 
 	public void returnMoney(int moneyType, int returnMoney, String moneyText) {
-		//환전금액 관련 출력만
 		System.out.printf("\n환전금액 : %d %s \n", returnMoney, moneyText);
 		switch(moneyType) {
 		case 1:

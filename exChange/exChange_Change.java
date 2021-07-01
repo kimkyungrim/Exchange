@@ -3,7 +3,6 @@ package exChange;
 public class exChange_Change {
 	
 	public void change(int returnWon) {		
-		//거스름돈 관련 출력만
 		System.out.println("\n거스름돈 : " + returnWon + "원");
 		System.out.println("\n5만원권 " + (int) returnWon / 50000 + " 장");
 		System.out.println("1만원권 " + (int) returnWon % 50000 / 10000 + " 장");
